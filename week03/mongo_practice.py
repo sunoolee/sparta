@@ -13,3 +13,4 @@ for movie in movies:
     print(movie['title'])
     db.movies.update_many({'star': target_star}, {'$set': {'star': '0'}})
     print(movie['star'])
+    print('hello')
